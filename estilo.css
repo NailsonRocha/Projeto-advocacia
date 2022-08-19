@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  /* Topo */
+  .s1 {
+    border-bottom: 1px solid #d5d5d5;
+  }
+  
+  .s2 {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .s1 p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Seção inicial com imagem de fundo */
+  .s3 {
+    min-height: 500px;
+    background-image: url('capa.jpg');
+    background-size: cover;
+  }
+  .c2 {
+    text-align: right;
+    padding: 50px 20px;
+  }
+  
+  /* Seção conteúdo */
+  .c3 {
+    padding: 50px 20px;
+  }
+  .img-c {
+    width: 250px;
+    height: 180px;
+  }
+  
+  .c3 span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  
+  /* Seção com imagem de fundo e texto */
+  .s4 {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .s4 h3{
+    font-size: 36px;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
